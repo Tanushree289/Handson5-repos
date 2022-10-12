@@ -8,7 +8,7 @@ import React, { PureComponent } from 'react'
     
       this.state = {
          name:'John Smith',
-         arr:[10]
+         arr:[1]
       }
     }
 
