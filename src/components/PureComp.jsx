@@ -31,7 +31,7 @@ import React, { PureComponent } from 'react'
       <div>
         <h1 className='App'>Pure Component</h1>
         Pure Components in React are the components which do not re-renders when the value of state and props has been updated with the same values. If the value of the previous state or props and the new state or props is the same, the component is not re-rendered.
-        <h1>Name:{this.state.name} </h1>
+        
 
 {
     this.state.arr.map(val => <h3>{val}</h3>)
